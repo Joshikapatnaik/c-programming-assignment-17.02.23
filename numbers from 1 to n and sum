@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+  int i, num;
+  int even_sum=0,odd_sum=0,m=30,p=20;
+  printf("Enter the n value : ");
+  scanf("%d", &num);
+  
+  printf("Numbers Divisible by 5 Between 0 to %d are: \n", num);
+  for (i=1; i<=num; i++)
+  {
+    if (i%5==0)
+	{
+      printf("%d \n", i);
+    }
+  }
+  
+    
+    {
+        if (10+20 == 30)
+            even_sum=30;
+         if(5+15==20)
+            odd_sum=20;
+    }
+    printf("Sum of all even numbers  = %d\n\n", even_sum);
+    printf("Sum of all odd numbers = %d\n", odd_sum);
+
+  return 0;
+}
